@@ -1,0 +1,39 @@
+<attribute-sets default="overridden-attributes">
+  <attribute-set id="overridden-attributes">
+    <value-set>
+      <label>overridden-attributes</label>
+      <attribute key="SolrDocumentSource.serviceUrlBase">
+        <value value="http://ammatsun.acis.ufl.edu:5900/solr/lichensabby/select"/>
+      </attribute>
+      <attribute key="SolrDocumentSource.solrIdFieldName">
+        <value value="id"/>
+      </attribute>
+      <attribute key="SolrDocumentSource.solrSummaryFieldName">
+        <value value="content"/>
+      </attribute>
+      <attribute key="XmlDocumentSourceHelper.timeout">
+        <value type="java.lang.Integer" value="300"/>
+      </attribute>
+      <!--
+      
+      Below are some attributes of this component you can change. Please see
+
+        http://download.carrot2.org/head/manual/#section.customizing.component-suites-and-attributes.component-attributes
+
+      for tools that will help you to edit this file.
+
+
+
+      <attribute key="SolrDocumentSource.serviceUrlBase">
+        <value type="java.lang.String" value="http://your.solr.host.com:8983/solr/select"/>
+      </attribute>
+      <attribute key="SolrDocumentSource.solrSummaryFieldName">
+        <value type="java.lang.String" value="abstract"/>
+      </attribute>
+      <attribute key="SolrDocumentSource.solrTitleFieldName">
+        <value type="java.lang.String" value="head"/>
+      </attribute>
+      -->
+    </value-set>
+  </attribute-set>
+</attribute-sets>

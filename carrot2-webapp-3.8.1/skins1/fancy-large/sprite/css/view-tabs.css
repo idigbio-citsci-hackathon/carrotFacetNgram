@@ -1,0 +1,61 @@
+/** 
+ * CSS for view tabs
+ */
+ 
+#views {
+  padding-left: 6px;
+  height: 23px;
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -277px;
+}
+
+#views.first-active {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -300px;
+}
+
+#views li {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -323px;
+  padding-right: 11px;
+  padding-top: 5px;
+  padding-left: 1px;
+  height: 18px;
+}
+
+#views li.active {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -346px;
+}
+
+#views li .right {
+  width: 11px;
+  height: 23px;
+}
+
+#views li .right {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -369px;
+}
+
+#views li.active .right {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -392px;
+}
+
+#views li.active-last .right {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -415px;
+  width: 10px;
+}
+
+#views li.passive-last .right {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -438px;
+  width: 10px;
+}
+
+#views li.before-active .right {
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -461px;
+}

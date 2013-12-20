@@ -1,0 +1,16 @@
+<component-suite>
+  <sources>
+    <source component-class="org.carrot2.source.solr.SolrDocumentSource" id="solrlichensnosw"
+            attribute-sets-resource="source-solr-attributes-lichensnosw.xml">
+      <label>Lichens Silver NoSW</label>
+      <title>Lichens Silver Without Stop Words Solr dataset</title>
+      <icon-path>icons/solr.png</icon-path>
+      <mnemonic>s</mnemonic>
+      <description>Solr document source queries an instance of Apache Solr search engine.</description>
+      <example-queries>
+        <example-query>florida</example-query>
+        <example-query>tennessee</example-query>
+      </example-queries>
+    </source>
+  </sources>
+</component-suite>

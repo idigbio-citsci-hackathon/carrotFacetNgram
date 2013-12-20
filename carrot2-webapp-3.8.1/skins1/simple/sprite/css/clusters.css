@@ -1,0 +1,47 @@
+/** 
+ * CSS for the cluster tree.
+ */
+#clusters {
+  margin-left: 2px;
+}
+ 
+#clusters li {
+  padding-left: 18px;
+}
+
+#clusters li a {
+  background-position: left 4px;
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -472px;
+  padding-left: 18px;
+}
+
+a#tree-top {
+  background-position: left 3px;
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -586px;
+  padding-left: 18px;
+}
+
+#clusters li > a > span.tree {
+  margin-left:  -34px;
+  margin-top: 2px;
+}
+
+#clusters li.branch > a > span.tree {
+  width: 12px; 
+  height: 15px;
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -699px;
+}
+
+#clusters li.more a {
+  background-position: left 2px;
+  background-image: url('../img/sprite-vert.png');
+  background-position: left -714px;
+}
+
+#always-show-all {
+  font-size: 11px;
+  margin-left: 37px;
+}

@@ -1,0 +1,16 @@
+<component-suite>
+  <sources>
+    <source component-class="org.carrot2.source.solr.SolrDocumentSource" id="solrlichensocropus"
+            attribute-sets-resource="source-solr-attributes-lichensocropus.xml">
+      <label>Lichens Ocropus</label>
+      <title>Lichens Ocropus Solr dataset</title>
+      <icon-path>icons/solr.png</icon-path>
+      <mnemonic>s</mnemonic>
+      <description>Solr document source queries an instance of Apache Solr search engine.</description>
+      <example-queries>
+        <example-query>florida</example-query>
+        <example-query>tennessee</example-query>
+      </example-queries>
+    </source>
+  </sources>
+</component-suite>
